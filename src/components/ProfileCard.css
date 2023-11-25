@@ -1,0 +1,31 @@
+.ProfCard {
+    margin-bottom: 200px;
+    padding-left: 200px;
+    cursor: pointer;
+    text-align: left;
+    align-items: left; /* Pindahkan foto ke tengah secara vertikal */
+    justify-content: left; /* Pindahkan foto ke tengah secara horizontal */
+}
+
+.photo {
+    width: 90px; 
+    height: 90px; 
+    border-radius: 50%;
+}
+
+#nama {
+    color: black;
+    font-size: 22px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+#describe {
+    color: rgb(2, 2, 2);
+    font-family: Verdana;
+    font-weight: 500;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5px;
+}

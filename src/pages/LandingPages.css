@@ -1,0 +1,19 @@
+/* LandingPage.css */
+.search-bar {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    transition: transform 0.3s ease; /* Add transition property */
+    text-align: right; /* Center the text horizontally */
+  }
+  .search-bar.slide-right {
+    transform: translateX(50%); /* Slide the search bar to the right */
+  }
+.title{
+  text-align: right;
+}
+  .toggle-icon {
+    background-color: #0056b3;
+  }
+
+  

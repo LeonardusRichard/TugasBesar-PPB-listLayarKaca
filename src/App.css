@@ -1,0 +1,75 @@
+/* Your CSS styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #f4f408; /* Set your desired background color */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Verdana', sans-serif; /* Use your preferred font-family */
+    color: #333; /* Set your preferred text color */
+  }
+.main {
+  padding-left: 10px;
+  margin-bottom: 60px; /* Adjust the margin to the height of your footer */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+input {
+  width: 250px;
+  border: 1px solid #e5e5;
+  border-radius: 6px;
+  padding: 7px 9px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color:  rgb(115, 16, 202);
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-top: black;
+  padding: 10px;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: row; /* Change to row for a horizontal layout */
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Verdana;
+  padding: 5px 10px; /* Add padding for spacing between icons */
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 5px; /* Add margin for spacing between icons */
+}
