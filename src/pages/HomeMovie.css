@@ -11,8 +11,9 @@ p {
     flex: 2;
     }
     
-    .photo1 { width: 90px;
-    height: 120px; border-radius: 12px;
+    .photo1 {
+    width: 150px;
+    height: 200px; border-radius: 12px;
     }
     .description1 { display: flex; padding-left: 20px;
         flex-direction: column; justify-content: space-around;
