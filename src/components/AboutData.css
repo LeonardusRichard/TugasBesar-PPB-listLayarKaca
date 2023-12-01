@@ -1,11 +1,8 @@
-.description {
+#describe{
     color: rgb(2, 2, 2);
-    font-family: Verdana;
-    font-weight: 500;
     font-size: 24px;
     margin-top: 5px;
-    text-align: center; /* Center the text horizontally */
+    text-align: center; 
     display: flex;
-    align-items: center; /* Center the text vertically */
+    align-items: center; 
   }
-  

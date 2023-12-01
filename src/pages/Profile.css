@@ -1,14 +1,12 @@
-p {
-	padding: 0;
-	margin: 0;
-  }
+
   .containerTop {
 	display: flex;
 	overflow: auto;
 	padding-bottom: 10px;
   }
   .photo {
-	width: 90px;
+	width: 100px;
+	text-align: center;
 	height: 120px;
 	border-radius: 12px;
   }
@@ -19,6 +17,9 @@ p {
 	flex-direction: column;
 	justify-content: space-around;
   }
+
+  /* Judul*/
+
   #movies {
 	padding: 20px 0 20px 0px;
 	color: black;
@@ -39,4 +40,29 @@ p {
 	font-weight: 500;
 	font-size: 12px;
 	margin-top: 5px;
+  }
+
+  /*Profile*/
+
+  
+  .profile-container {
+    text-align: center;
+	margin-bottom: 50px;
+	font-family: verdana;
+	font-size: 18px;
+
+	
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 20%;
+    border-radius: 20%;
+	text-align: center;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .Desc{
+	font-family: Verdana;
   }
